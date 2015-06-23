@@ -1,0 +1,23 @@
+{
+    "info": {
+        "name" : "Sockets",
+        "author": "Gael",
+        "version": "0.1",
+        "description": "Output my precious data"
+    },
+
+    "appearance": {
+        "background" : "transparent",
+        "resize" : "aspectRatio",
+        "size" : {
+            "initial" : [150,150],
+            "minimal" : [100,100],
+            "maximal" : [500,500]
+        }
+
+    },
+
+    "data": {
+        "streams" : ["sensors","wheelInfo","electrics"]
+    }
+}
